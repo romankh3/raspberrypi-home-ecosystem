@@ -1,4 +1,4 @@
-# This is detailed description of [Base Configuration](https://github.com/romankh3/raspberrypi-smart-home#base-congifuration-for-the-single-board-computers).
+# This is detailed description of [Base Configuration](https://github.com/romankh3/raspberrypi-home-ecosystem#base-congifuration-for-the-single-board-computers).
 
 ## Requeirements
 * Downloaded OS

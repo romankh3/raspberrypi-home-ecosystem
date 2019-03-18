@@ -161,7 +161,9 @@ For people who use linux/macOS it's really easy. I use macOS, so will tell how t
 
 `$ sudo dd if=/dev/name_of_the_microSdCard of=/home/Username/Desktop/raspberrypi-backup.img`
  
- And that's all.
+ That’s it. The only thing is highly recommended is that you properly eject the SD before taking it out of the slot physically:
+
+`$ sudo diskutil eject /dev/name_of_the_microSdCard`
 
 ## Summary
 

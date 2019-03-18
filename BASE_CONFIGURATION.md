@@ -151,6 +151,18 @@ Now it's avaliable in `192.168.0.222:8888`.
 ## Samba
 To be added 
 
+## Backup
+This is good time to do backup. What does it mean? It mean, that needs to create `.img` file of the microSD card with Base Configuration to be sure that if something will be bad, we can easily set it again, just mount own customised image.
+//todo add link to the base configuration image.
+
+Should be found the name of the microSD card put it into command below
+
+For people who use linux/macOS it's really easy. I use macOS, so will tell how to do it on macboor:
+
+`$ sudo dd if=/dev/name_of_the_microSdCard of=/home/Username/Desktop/raspberrypi-backup.img`
+ 
+ And that's all.
+
 ## Summary
 
 It's all what I wanted to add to Base Configuration stage. This is base of all the instances of all Raspberry Pi PCs.

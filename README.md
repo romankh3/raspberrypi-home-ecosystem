@@ -51,5 +51,5 @@ The main idea is to provide the solution which won't really expensive. So think 
 
 # Lisence
 [:arrow_up:](#smart-home-based-on-raspberry-pi)
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 

@@ -95,3 +95,62 @@ I choose `192.168.0.222` as a static ip address and set to all interfaces, which
 Next, re boot raspberry and watch to static ip instead of the dinamic.
 
 `$ sudo reboot`
+
+## Install RPi-monitor
+Raspberry should be monitored and `RPi-monitor` - it's  the tool, which can help with it. It developed for Raspberrian and it's fast and light.
+It shows next data:
+* Version of the OS
+* Uptime
+* CPU
+* Tempurature
+* Memory
+* SD Card memory
+
+Looks like picture below:
+
+<img width="1620" alt="RPi-monitor screenshot" src="https://user-images.githubusercontent.com/16310793/54562822-6bac7400-49d0-11e9-8f68-c1fc27402596.png">
+
+I really like it, moreover it has `statistics` section, when can be sound data from last reboot, see below:
+
+<img width="983" alt="RPi-monitor statictics" src="https://user-images.githubusercontent.com/16310793/54562960-bb8b3b00-49d0-11e9-9836-a17617006c93.png">
+
+So, go ahead:
+
+First, add `https` support:
+
+`$ sudo apt-get install apt-transport-https ca-certificates`
+
+Add public key for repository access:
+
+`$ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 2C0D3C0F`
+
+Add RPi-monirot repository to the list of the avaliable repos:
+
+`$ sudo wget goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list`
+
+Update packages with new configurations:
+
+`$ sudo apt-get update`
+
+Install RPi-monitor:
+
+`$ sudo apt-get install rpimonitor`
+
+It's the last step for installing RPi-monitor. Let's do extra configurations.
+
+Add auto update package status:
+
+```
+$ sudo /etc/init.d/rpimonitor install_auto_package_status_update
+$ sudo /etc/init.d/rpimonitor update
+$ sudo service rpimonitor restart
+```
+
+Now it's avaliable in `192.168.0.222:8888`.
+
+## Samba
+To be added 
+
+## Summary
+
+It's all what I wanted to add to Base Configuration stage. This is base of all the instances of all Raspberry Pi PCs.

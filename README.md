@@ -2,9 +2,11 @@
 Guidelines of how to build smart home ecosystem based on Raspberry Pi. Why *Raspberry*? Because it's not so expensive as the solutions "out of the box".
 This is first step to create smart home.
 
-# Version 0.0.1-SNAPSHOT
-Plan add [Base congifuration for the single-board computers](#base-congifuration-for-the-single-board-computers) 
+# Versions
 
+### 0.0.1-SNAPSHOT 
+* added [Base configuration for the single-board computers](#base-congifuration-for-the-single-board-computers)(Not added Samba)
+* added bash script for installing RPi-monitor(not tested)
 # Parts
 * [Base congifuration for the single-board computers](#base-congifuration-for-the-single-board-computers)
 * [Main server based on Raspberry Pi Modeb 3b+](#main-server-based-on-raspberry-pi-modeb-3b)

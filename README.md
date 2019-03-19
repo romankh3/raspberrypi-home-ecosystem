@@ -67,8 +67,7 @@ You can use two ways to do it.
 # Contributing
 [:arrow_up:](#smart-home-based-on-raspberry-pi)
 If you have any ideas of how to improve these apporoach or you have ideas about new features - welcome!
-The main idea is to provide the solution which won't really expensive. So think in this way ;)
-
+Full description can be found [HERE](CONTRIBUTING.md)
 # Lisence
 [:arrow_up:](#smart-home-based-on-raspberry-pi)
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.

@@ -4,6 +4,10 @@ This is first step to create smart home.
 
 # Versions
 
+### 0.0.2-SNAPSHOT
+* apply updates for Raspberry Pi Zero W
+* add all scripts and test them
+
 ### 0.0.1-SNAPSHOT 
 * added [Base configuration for the single-board computers](#base-congifuration-for-the-single-board-computers)(Not added Samba)
 * added bash script for installing RPi-monitor(not tested)
@@ -22,11 +26,17 @@ This is first step to create smart home.
   4. Install downloaded image on microSD. I use *balenaEtcher* to do it.
 
 ## Main server based on Raspberry Pi Modeb 3b+
-[:arrow_up:](#smart-home-based-on-raspberry-pi) To be added 
-
+[:arrow_up:](#smart-home-based-on-raspberry-pi) 
+1. Implement [Base Configuration](#base-congifuration-for-the-single-board-computers)
+2. Install torrent-downloader(to be added)
+3. Mount USB-storage
+4. Install own cloud
+5. to be added
 ## Camera monitoring based on Raspberry Pi Zero W
-[:arrow_up:](#smart-home-based-on-raspberry-pi) To be added
-
+[:arrow_up:](#smart-home-based-on-raspberry-pi)
+1. Implement [Base Configuration](#base-congifuration-for-the-single-board-computers)
+2. Install MotionEye using next [guidelines](https://github.com/ccrisan/motioneye/wiki/Install-On-Raspbian) or use our bash script `./srcripts/zerow/motion-eye.sh`
+3. This raspberry can be used for other needs, too. On demand can be chosen features from list.
 ## Monitoring home state with different sensors
 [:arrow_up:](#smart-home-based-on-raspberry-pi)
 In a nutshell:
@@ -45,6 +55,14 @@ Step by step these guidelines can be used for creating own smart home ecosystem.
 You can use two ways to do it. 
 * First is to go step by step throw the description.
 * Second is to run bash scripts, which are based on the guidelines.
+
+# Features
+[:arrow_up:](#smart-home-based-on-raspberry-pi)
+* media server
+* Wi-Fi printer
+* gaming center
+* torrent-downloader
+* etc... to be added
 
 # Contributing
 [:arrow_up:](#smart-home-based-on-raspberry-pi)

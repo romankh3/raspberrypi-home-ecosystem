@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+#
+# todo
+# 1. make it executable.
+# 2. test it.
+#
+#
+
 # First, add https support:
 sudo apt-get install apt-transport-https ca-certificates
 

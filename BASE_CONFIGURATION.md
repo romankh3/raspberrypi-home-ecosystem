@@ -50,7 +50,9 @@ Next, need to undestand the `ip address` of the Raspberry to connect to.
 
 Next we can find the it:
 
+
 <img width="454" alt="Sudo ifconfig" src="https://user-images.githubusercontent.com/16310793/54558416-57637980-49c6-11e9-8688-fcdfefb15cf6.png">
+
 
 And `192.168.0.104` is an ip address of the Raspberry Pi.
 
@@ -124,7 +126,7 @@ Add public key for repository access:
 
 `$ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 2C0D3C0F`
 
-Add RPi-monirot repository to the list of the avaliable repos:
+Add RPi-monitor repository to the list of the available repos:
 
 `$ sudo wget goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list`
 

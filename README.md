@@ -1,6 +1,5 @@
 # Smart home based on Raspberry Pi
-Guidelines of how to build smart home ecosystem based on Raspberry Pi. Why *Raspberry*? Because it's not so expensive as the solutions "out of the box".
-This is first step to create smart home.
+Guidelines of how to build a smart home ecosystem based on Raspberry Pi. Why Raspberry? Because it's not so expensive as the solutions "out of the box". This first steps to creating a smart home.
 
 # Versions
 

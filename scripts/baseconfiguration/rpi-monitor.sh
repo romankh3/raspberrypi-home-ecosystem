@@ -3,8 +3,6 @@
 #
 # todo
 # 1. make it executable.
-# 2. test it.
-#
 #
 
 # First, add https support:
@@ -20,7 +18,7 @@ sudo wget goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list
 sudo apt-get update
 
 # Install RPi-monitor:
-sudo apt-get install rpimonitor
+sudo apt-get install rpimonitor -y -y
 
 # Add auto update package status:
 sudo /etc/init.d/rpimonitor install_auto_package_status_update

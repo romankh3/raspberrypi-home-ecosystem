@@ -19,7 +19,7 @@ Guidelines of how to build a smart home ecosystem based on Raspberry Pi. Why Ras
 
 ## Base congifuration for the single-board computers
 [Full description](BASE_CONFIGURATION.md) [:arrow_up:](#smart-home-based-on-raspberry-pi) Go Top.
-  1. Download [Raspberrian OS](https://www.raspberrypi.org/downloads/raspbian/). All the guidelines describe the case with *Raspbian Stretch Lite*, image with only commandline.
+  1. Download [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/). All the guidelines describe the case with *Raspbian Stretch Lite*, image with only commandline.
   2. Get microSD card on 16GB+. I prefere sanDisk 16GB.
   3. Format microSD cart to FAT32 format. I use *CD Card Formatter* on MacOS.
   4. Install downloaded image on microSD. I use *balenaEtcher* to do it.

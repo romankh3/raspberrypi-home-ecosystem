@@ -12,7 +12,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-# update Raspberrian firmware
+# update Raspbian firmware
 sudo rpi-update
 
 # apply changes

@@ -1,0 +1,25 @@
+@startuml
+title Raspberry Pi Home Ecosystem
+
+hide empty members
+
+object BaseConfiguration {
+    Raspbian Light OS
+    Enabled SSH
+    Static Ip Address
+    RPi Monitor
+    Samba
+}
+
+object MainServerModel3bPlus {
+    Based on BaseConfiguration
+    Mounted usb-storage
+    Transmission(Torrent Downloader)
+    Plex media server
+    Leanote host
+    Pi-hole
+    NextCloud
+}
+
+
+@enduml

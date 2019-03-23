@@ -5,21 +5,32 @@ hide empty members
 
 object BaseConfiguration {
     Raspbian Light OS
+    Install Git
     Enabled SSH
     Static Ip Address
     RPi Monitor
-    Samba
 }
 
 object MainServerModel3bPlus {
     Based on BaseConfiguration
     Mounted usb-storage
+    Samba
     Transmission(Torrent Downloader)
     Plex media server
     Leanote host
     Pi-hole
     NextCloud
 }
+
+object PiZeroW {
+   Based on BaseConfiguration
+   MotionEye
+   CUPS
+}
+
+BaseConfiguration --> MainServerModel3bPlus
+BaseConfiguration --> PiZeroW
+
 
 
 @enduml

@@ -1,15 +1,14 @@
 # Smart home based on Raspberry Pi
-Guidelines of how to build a smart home ecosystem based on Raspberry Pi. Why Raspberry? Because it's not so expensive as the solutions "out of the box". This first steps to creating a smart home.
+Build your own smart home ecosystem based on Raspberry Pi. Use the guideline and/or bash scripts, which is tested and verified on real hardware and software.
 
-# Versions
+Why do you need it? It a great change to build own smart home, which is customing as you want and all the features as you want.
 
-### 0.0.2-SNAPSHOT
-* apply updates for Raspberry Pi Zero W
-* add all scripts and test them
 
-### 0.0.1-SNAPSHOT 
-* added [Base configuration for the single-board computers](#base-congifuration-for-the-single-board-computers)(Not added Samba)
-* added bash script for installing RPi-monitor(not tested)
+# Release Notes
+
+### 0.0.1-SNAPSHOT
+* added [Base configuration for the single-board computers](#base-congifuration-for-the-single-board-computers)
+* add all scripts based on Base Configuration and tested it.
 # Parts
 * [Base congifuration for the single-board computers](#base-congifuration-for-the-single-board-computers)
 * [Main server based on Raspberry Pi Modeb 3b+](#main-server-based-on-raspberry-pi-modeb-3b)
@@ -19,7 +18,7 @@ Guidelines of how to build a smart home ecosystem based on Raspberry Pi. Why Ras
 
 ## Base congifuration for the single-board computers
 [Full description](BASE_CONFIGURATION.md) [:arrow_up:](#smart-home-based-on-raspberry-pi) Go Top.
-  1. Download [Raspberrian OS](https://www.raspberrypi.org/downloads/raspbian/). All the guidelines describe the case with *Raspbian Stretch Lite*, image with only commandline.
+  1. Download [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/). All the guidelines describe the case with *Raspbian Stretch Lite*, image with only commandline.
   2. Get microSD card on 16GB+. I prefere sanDisk 16GB.
   3. Format microSD cart to FAT32 format. I use *CD Card Formatter* on MacOS.
   4. Install downloaded image on microSD. I use *balenaEtcher* to do it.

@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 #
 # Full update.
 #

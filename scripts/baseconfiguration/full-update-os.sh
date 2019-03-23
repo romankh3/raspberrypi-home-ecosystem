@@ -2,18 +2,8 @@
 
 
 #
-# Full update the system
-#
-# todo
-# test it.
+# Full update.
 #
 
-# update all packages to latest version
 sudo apt-get update
 sudo apt-get upgrade
-
-# update Raspberrian firmware
-sudo rpi-update
-
-# apply changes
-sudo reboot

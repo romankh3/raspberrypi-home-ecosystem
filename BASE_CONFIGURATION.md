@@ -58,6 +58,11 @@ And `192.168.0.104` is an ip address of the Raspberry Pi.
 
 Next all the actions will be executed from PC via SSH connection. SSH connection it's out of the scope, so google it :)
 
+## Install Git
+This is light version of the Raspbian, that's why before using `srcpits` from the project, install git:
+
+`$ sudo apt-get install git -y`
+
 ## Set Static Ip Address
 To be sure, that everytime Raspberry will be on the same IP, this needs to be configured:
 

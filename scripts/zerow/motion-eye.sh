@@ -3,10 +3,7 @@
 #
 # These guidelines was taken from official wifi page:
 # https://github.com/ccrisan/motioneye/wiki/Install-On-Raspbian
-#
-# todo
-# test it
-#
+##
 
 # Install ffmpeg and v4l-utils:
 sudo apt-get install ffmpeg v4l-utils
@@ -37,3 +34,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable motioneye
 sudo systemctl start motioneye
 
+# Remove .dep file
+sudo rm -f pi_stretch_motion_4.1.1-1_armhf.deb

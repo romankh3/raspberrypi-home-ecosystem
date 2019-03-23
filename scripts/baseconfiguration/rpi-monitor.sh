@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 
 #
-# todo
-# 1. make it executable.
-# 2. test it.
-#
+# Install RPi-monitor.
 #
 
 # First, add https support:

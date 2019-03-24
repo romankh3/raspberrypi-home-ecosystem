@@ -1,7 +1,7 @@
 # Smart home based on Raspberry Pi
 Build your own smart home ecosystem based on Raspberry Pi. Use the guideline and/or bash scripts, which is tested and verified on real hardware and software.
 
-Why do you need it? It a great change to build own smart home, which is customing as you want and all the features as you want.
+Why do you need it? It a great chance to build own smart home, which is customing as you want and all the features as you want.
 
 
 # Release Notes
@@ -18,9 +18,9 @@ Why do you need it? It a great change to build own smart home, which is customin
 
 ## Base congifuration for the single-board computers
 [Full description](BASE_CONFIGURATION.md) [:arrow_up:](#smart-home-based-on-raspberry-pi) Go Top.
-  1. Download [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/). All the guidelines describe the case with *Raspbian Stretch Lite*, image with only commandline.
-  2. Get microSD card on 16GB+. I prefere sanDisk 16GB.
-  3. Format microSD cart to FAT32 format. I use *CD Card Formatter* on MacOS.
+  1. Download [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/). All the guidelines describe the case with *Raspbian Stretch Lite*, the image with the only command line.
+  2. Get microSD card on 16GB+. I prefer SanDisk 16GB.
+  3. Format microSD card to FAT32 format. I use *CD Card Formatter* on MacOS.
   4. Install downloaded image on microSD. I use *balenaEtcher* to do it.
 
 ## Main server based on Raspberry Pi Modeb 3b+
@@ -51,7 +51,7 @@ In a nutshell:
 Step by step these guidelines can be used for creating own smart home ecosystem.
 
 You can use two ways to do it. 
-* First is to go step by step throw the description.
+* First is to go step by step throws the description.
 * Second is to run bash scripts, which are based on the guidelines.
 
 # Features
@@ -64,7 +64,7 @@ You can use two ways to do it.
 
 # Contributing
 [:arrow_up:](#smart-home-based-on-raspberry-pi)
-If you have any ideas of how to improve these apporoach or you have ideas about new features - welcome!
+If you have any ideas of how to improve this approach or you have ideas about new features - welcome!
 Full description can be found [HERE](CONTRIBUTING.md)
 # Lisence
 [:arrow_up:](#smart-home-based-on-raspberry-pi)

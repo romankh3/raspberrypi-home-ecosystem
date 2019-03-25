@@ -6,7 +6,7 @@ Why do you need it? It a great chance to build own smart home, which is customin
 
 # Release Notes
 
-### 0.0.1-SNAPSHOT
+### 0.1.0-SNAPSHOT
 * added [Base configuration for the single-board computers](#base-congifuration-for-the-single-board-computers)
 * add all scripts based on Base Configuration and tested it.
 # Parts

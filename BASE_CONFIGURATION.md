@@ -9,18 +9,18 @@
 * keyboard
 
 ## Download Operation System
-I prefere Raspbian Official Operation System, it can be downloaded [here](https://www.raspberrypi.org/downloads/raspbian/).
+I prefer the Raspbian Official Operation System, it can be downloaded [here](https://www.raspberrypi.org/downloads/raspbian/).
 
 ## microSD card
-In my opinion capacity of the card should be 16GB. I prefere `sanDisk`.
+In my opinion, the capacity of the card should be 16GB. I prefer `SanDisk`.
 
 ## Format microSD card to FAT32
-Format microSD cart to FAT32 format. I use [CD Card Formatter](https://www.sdcard.org/downloads/formatter_4/).
+Format microSD card to FAT32 format. I use [CD Card Formatter](https://www.sdcard.org/downloads/formatter_4/).
 
 <img width="634" alt="microSD_Card_Formatting" src="https://user-images.githubusercontent.com/16310793/54485358-c2eeff00-487f-11e9-970f-153c158dccce.png">
 
 ## Flash Raspbian into microSD
-Install downloaded image on microSD. I use [balenaEtcher](https://www.balena.io/etcher/) to do it. It's easy to use. It has one feature - mount `.img` files into microDS card and nothin else!
+Install downloaded image on microSD. I use [balenaEtcher](https://www.balena.io/etcher/) to do it. It's easy to use. It has one feature - mount `.img` files into the microDS card and nothing else!
 
 <img width="954" alt="flash_raspbian_to_microSD" src="https://user-images.githubusercontent.com/16310793/54485381-2f69fe00-4880-11e9-881e-7c170867b53d.png">
 
@@ -38,13 +38,13 @@ And configuration window will open and looks like picture below:
 
 Next, choose `Interfacing Options` and set `SSH` enable. This will help to connect to Raspberry Pi via SSH.
 
-After that, go back and go to `Network Options` and choose `Wi-Fi`. Fill name and password of the Wi-Fi.
+After that, go back and go to `Network Options` and choose `Wi-Fi`. Fill the name and password of the Wi-Fi.
 
-To be sure, that these changes is working as expected, re boot Raspberry
+To be sure, that these changes are working as expected, reboot Raspberry
 
 `$ sudo reboot`
 
-Next, need to undestand the `ip address` of the Raspberry to connect to.
+Next, need to understand the `IP address` of the Raspberry to connect to.
 
 `$ sudo ifconfig`
 
@@ -54,19 +54,19 @@ Next we can find the it:
 <img width="454" alt="Sudo ifconfig" src="https://user-images.githubusercontent.com/16310793/54558416-57637980-49c6-11e9-8688-fcdfefb15cf6.png">
 
 
-And `192.168.0.104` is an ip address of the Raspberry Pi.
+And `192.168.0.104` is an IP address of the Raspberry Pi.
 
-Next all the actions will be executed from PC via SSH connection. SSH connection it's out of the scope, so google it :)
+Next, all the actions will be executed from PC via SSH connection. SSH connection it's out of the scope, so google it :)
 
 ## Install Git
-This is light version of the Raspbian, that's why before using `srcpits` from the project, install git:
+This is the light version of the Raspbian, that's why before using `scripts` from the project, install git:
 
 `$ sudo apt-get install git -y`
 
 ## Set Static Ip Address
-To be sure, that everytime Raspberry will be on the same IP, this needs to be configured:
+To be sure, that every time Raspberry will be on the same IP, this needs to be configured:
 
-First we need to updarstand the main ip address of the router. For example in this case, it's `192.168.0.1`. Or it can be `192.168.1.1`. 
+First, we need to understand the main IP address of the router. For example, in this case, it's `192.168.0.1`. Or it can be `192.168.1.1`. 
 
 Open the dhcpcd config:
 
@@ -99,17 +99,17 @@ It looks like below:
 
 I choose `192.168.0.222` as a static ip address and set to all interfaces, which can be.
 
-Next, re boot raspberry and watch to static ip instead of the dinamic.
+Next, reboot raspberry and watch to static IP instead of the dynamic.
 
 `$ sudo reboot`
 
 ## Install RPi-monitor
-Raspberry should be monitored and `RPi-monitor` - it's  the tool, which can help with it. It developed for Raspbian and it's fast and light.
-It shows next data:
+Raspberry should be monitored and `RPi-monitor` - it's the tool, which can help with it. It developed for Raspbian and it's fast and light.
+It shows the next data:
 * Version of the OS
 * Uptime
 * CPU
-* Tempurature
+* Temperature
 * Memory
 * SD Card memory
 
@@ -127,7 +127,7 @@ First, add `https` support:
 
 `$ sudo apt-get install apt-transport-https ca-certificates`
 
-Add public key for repository access:
+Add the public key for repository access:
 
 `$ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 2C0D3C0F`
 
@@ -153,11 +153,11 @@ $ sudo /etc/init.d/rpimonitor update
 $ sudo service rpimonitor restart
 ```
 
-Now it's avaliable in `192.168.0.222:8888`.
+Now it's available in `192.168.0.222:8888`.
 
 ## Backup
-This is good time to do backup. What does it mean? It mean, that needs to create `.img` file of the microSD card with Base Configuration to be sure that if something will be bad, we can easily set it again, just mount own customised image.
-//todo add link to the base configuration image.
+This is a good time to do the backup. What does it mean? It means that needs to create `.img` file of the microSD card with Base Configuration to be sure that if something will be bad, we can easily set it again, just mount own customized image.
+//todo adds the link to the base configuration image.
 
 Should be found the name of the microSD card put it into command below
 
@@ -169,10 +169,10 @@ For people who use linux/macOS it's really easy. I use macOS, so will tell how t
 
 `$ sudo diskutil eject /dev/name_of_the_microSdCard`
 
-**Full Description of how to make backup without empty space will be added later**
+**Full Description of how to make the backup without empty space will be added later**
 
 ## Summary
 
-It's all what I wanted to add to Base Configuration stage. This is base of all the instances of all Raspberry Pi PCs. 
+It's all that I wanted to add to the Base Configuration stage. This is the base of all the instances of all Raspberry Pi PCs. 
 
 Good luck!

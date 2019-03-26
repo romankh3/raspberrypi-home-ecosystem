@@ -1,4 +1,4 @@
-# Smart home based on Raspberry Pi
+# Smart home ecosystem based on Raspberry Pi
 Build your own smart home ecosystem based on Raspberry Pi. Use the guideline and/or bash scripts, which is tested and verified on real hardware and software.
 
 Why do you need it? It a great chance to build own smart home, which is customing as you want and all the features as you want.
@@ -15,6 +15,7 @@ Why do you need it? It a great chance to build own smart home, which is customin
 * [Camera monitoring based on Raspberry Pi Zero W](#camera-monitoring-based-on-raspberry-pi-zero-w)
 * [Monitoring home state with different sensors](#monitoring-home-state-with-different-sensors)
 * [Local internet customising based on Orange Pi R1](#local-internet-customising-based-on-orange-pi-r1)
+* [Backup server on Raspberry Pi Zero W](#Backup-server-on-Raspberry-Pi-Zero-W)
 
 ## Base congifuration for the single-board computers
 [Full description](BASE_CONFIGURATION.md) [:arrow_up:](#smart-home-based-on-raspberry-pi) Go Top.
@@ -42,6 +43,11 @@ In a nutshell:
 * Humidity sensor
 * air temperature sensor
 * etc
+## Backup server on Raspberry Pi Zero W
+[To be added](BACKUP_SERVER.md). Zero W should be enough to be a backup server.
+1. Implement [Base Configuration](#base-congifuration-for-the-single-board-computers)
+2. Mount USB-storage and connect it to USB 2.0
+3. Install Samba.
 
 ## Local internet customising based on Orange Pi R1
 [:arrow_up:](#smart-home-based-on-raspberry-pi) To be added

@@ -27,7 +27,7 @@ Install downloaded image on microSD. I use [balenaEtcher](https://www.balena.io/
 ## Turn on raspberry and set Wi-Fi connection
 Plug in microSD card into Raspberry Pi and on the single-board PC.
 
-Next put default `user:password`: `pi:raspberry`.
+Next, put default `user:password`: `pi:raspberry`.
 
 Next, should be configured Wi-Fi connection and SSH to be enabled.
 
@@ -59,7 +59,7 @@ And `192.168.0.104` is an IP address of the Raspberry Pi.
 Next, all the actions will be executed from PC via SSH connection. SSH connection it's out of the scope, so google it :)
 
 ## Install Git
-This is the light version of the Raspbian, that's why before using `scripts` from the project, install git:
+This is the light version of the Raspbian, that's why before using `scripts` from the project, we need to clone it, for this purpose install git:
 
 `$ sudo apt-get install git -y`
 

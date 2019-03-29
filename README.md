@@ -32,7 +32,7 @@ Why do you need it? It a great chance to build own smart home, which is customin
 4. Install own cloud
 5. to be added
 ## Camera monitoring based on Raspberry Pi Zero W
-[:arrow_up:](#smart-home-based-on-raspberry-pi)
+[Full description](PI_ZERO_W_CAMERA.md) [:arrow_up:](#smart-home-based-on-raspberry-pi)
 1. Implement [Base Configuration](#base-congifuration-for-the-single-board-computers)
 2. Install MotionEye using next [guidelines](https://github.com/ccrisan/motioneye/wiki/Install-On-Raspbian) or use our bash script `./srcripts/zerow/motion-eye.sh`
 3. This raspberry can be used for other needs, too. On demand can be chosen features from list.

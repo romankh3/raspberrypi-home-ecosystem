@@ -1,5 +1,17 @@
 # This is detailed description of [Base Configuration](https://github.com/romankh3/raspberrypi-home-ecosystem#base-congifuration-for-the-single-board-computers).
 
+* [Requirements](#requeirements)
+* [Download Operation System](#download-operation-system)
+* [MicroSD Card](#microsd-card)
+* [Format microSD card to FAT32](#format-microsd-card-to-fat32)
+* [Flash Raspbian into microSD](#flash-raspbian-into-microsd)
+* [Turn on raspberry and set Wi-Fi connection](#turn-on-raspberry-and-set-wi-fi-connection)
+* [Install Git](#install-git)
+* [Set Static Ip Address](#set-static-ip-address)
+* [Install RPi-monitor](#install-rpi-monitor)
+* [Backup](#backup)
+* [Summary](#summary)
+
 ## Requeirements
 * Downloaded OS
 * microSD card 16GB
@@ -11,7 +23,7 @@
 ## Download Operation System
 I prefer the Raspbian Official Operation System, it can be downloaded [here](https://www.raspberrypi.org/downloads/raspbian/).
 
-## microSD card
+## MicroSD card
 In my opinion, the capacity of the card should be 16GB. I prefer `SanDisk`.
 
 ## Format microSD card to FAT32

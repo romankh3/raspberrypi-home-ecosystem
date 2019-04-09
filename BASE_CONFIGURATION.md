@@ -133,6 +133,8 @@ I really like it, moreover it has `statistics` section, when can be sound data f
 
 <img width="983" alt="RPi-monitor statictics" src="https://user-images.githubusercontent.com/16310793/54562960-bb8b3b00-49d0-11e9-9836-a17617006c93.png">
 
+Can be used [bash script](https://github.com/romankh3/raspberrypi-home-ecosystem/blob/master/scripts/baseconfiguration/rpi-monitor.sh) from the project.
+
 So, go ahead:
 
 First, add `https` support:

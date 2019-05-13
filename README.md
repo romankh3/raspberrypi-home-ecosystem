@@ -1,3 +1,4 @@
+![square version-01](https://user-images.githubusercontent.com/16310793/57600941-db1f8980-7563-11e9-95ed-5f9c90f0136c.png)
 # Smart home ecosystem based on Raspberry Pi
 Build your own smart home ecosystem based on Raspberry Pi. Use the guideline and/or bash scripts, which is tested and verified on real hardware and software.
 

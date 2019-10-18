@@ -21,7 +21,7 @@
 * keyboard
 
 ## Download Operation System
-I prefer the Raspbian Official Operation System, it can be downloaded [here](https://www.raspberrypi.org/downloads/raspbian/).
+I prefer the [Raspbian Official Operation System](https://www.raspberrypi.org/downloads/raspbian/).
 
 ## MicroSD card
 In my opinion, the capacity of the card should be 16GB. I prefer `SanDisk`.
@@ -37,28 +37,22 @@ Install downloaded image on microSD. I use [balenaEtcher](https://www.balena.io/
 <img width="954" alt="flash_raspbian_to_microSD" src="https://user-images.githubusercontent.com/16310793/54485381-2f69fe00-4880-11e9-881e-7c170867b53d.png">
 
 ## Turn on raspberry and set Wi-Fi connection
-Plug in microSD card into Raspberry Pi and on the single-board PC.
+1. Plug in microSD card into Raspberry Pi and on the single-board PC.
 
-Next, put default `user:password`: `pi:raspberry`.
+2. Next, put default `user:password`: `pi:raspberry`.
 
-Next, should be configured Wi-Fi connection and SSH to be enabled.
-
-`$ sudo raspi-config`
+3. Next, should be configured Wi-Fi connection and SSH to be enabled: `$ sudo raspi-config`
 
 And configuration window will open and looks like picture below:
 <img width="924" alt="Raspi Configuration Window" src="https://user-images.githubusercontent.com/16310793/54557655-5d585b00-49c4-11e9-9b1f-64f12fecf12e.png">
 
-Next, choose `Interfacing Options` and set `SSH` enable. This will help to connect to Raspberry Pi via SSH.
+4. Next, choose `Interfacing Options` and set `SSH` enable. This will help to connect to Raspberry Pi via SSH.
 
-After that, go back and go to `Network Options` and choose `Wi-Fi`. Fill the name and password of the Wi-Fi.
+5. After that, go back and go to `Network Options` and choose `Wi-Fi`. Fill the name and password of the Wi-Fi.
 
-To be sure, that these changes are working as expected, reboot Raspberry
+6. To be sure, that these changes are working as expected, reboot Raspberry: `$ sudo reboot`
 
-`$ sudo reboot`
-
-Next, need to understand the `IP address` of the Raspberry to connect to.
-
-`$ sudo ifconfig`
+7. Next, need to understand the `IP address` of the Raspberry to connect to: `$ sudo ifconfig`
 
 Next we can find the it:
 
@@ -68,7 +62,7 @@ Next we can find the it:
 
 And `192.168.0.104` is an IP address of the Raspberry Pi.
 
-Next, all the actions will be executed from PC via SSH connection. SSH connection it's out of the scope, so google it :)
+Summary: all the actions will be executed from PC via SSH connection. SSH connection it's out of the scope, so google it :)
 
 ## Install Git
 This is the light version of the Raspbian, that's why before using `scripts` from the project, we need to clone it, for this purpose install git:

@@ -94,7 +94,7 @@ static routers=192.168.0.1
 static domain_name_servers=192.168.0.1
 
 interface wlan1
-static ip_address=192.168.0.2224/24
+static ip_address=192.168.0.222/24
 static routers=192.168.0.1
 static domain_name_servers=192.168.0.1
 
